@@ -32,7 +32,7 @@ const router=createBrowserRouter(
         <Route path=':userid' element={<User/>}></Route>
       </Route>
 
-    <Route path='*' element={<div>Not Found</div>}/>
+      <Route path='*' element={<div>Not Found</div>}/>
     </Route>
   )
 
